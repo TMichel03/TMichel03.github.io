@@ -1,0 +1,17 @@
+li {
+    font-size: 18px;
+    color: dimgray;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 28px;
+    color:dimgray;
+    font-weight: bold;
+}
+
+.gradient {
+  
+    /* will be "on top", if browser supports it */
+    background-color: bisque;
+}
