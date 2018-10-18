@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
 <title>Portfolio</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
+<script src="CS_160/scripts/main.js"></script>
 <link rel="stylesheet" type="text/css" href="styles/topStyles.css">
-<link rel="stylesheet" type="text/css" href="C:\Users\Tiffa\Documents\GitHub Repo\TMichel03.github.io\CS_160\styles\styles.css">
+<link rel="stylesheet" type="text/css" href="testNavStyle.css">
 </head>
 <body>
 
-  <h1>Tiffany Michel</h1>
-  <ul style="list-style: none;color: red;"></ul>
-    <li><a href="CS_160/index.html">CS 160</a></li>
-  </ul>
+  <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="CS_160/index.html">CS 160</a>
+  </div>
+        
+  <div id="main">
+   <h1 style="text-align:center; font-size:35px;">Tiffany Michel</h1>
+   <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+  </div>
 
 </body>
 </html>
