@@ -17,23 +17,11 @@ function draw() {
   } else {
     fill(80,60,200);
   }
-  quad(mouseX,mouseY,30,300,240,14,360,200);
+  quad(mouseX,mouseY,80,300,240,14,360,200);
   if(mouseIsPressed) {
-    fill(0,0,0,35);
+    fill(0,18,23,90);
   } else {
-    fill(180,160,200,57);
+    fill(0,65,20,57);
   }
-  ellipse(mouseX,mouseY,200,80);
-  if(mouseIsPressed) {
-    fill(34,80,34,80);
-  } else {
-    fill(80,60,200,80);
-  }
-  ellipse(mouseX,mouseY,20,105);
-
-
 }
-quad(158, 55, 199, 14, 392, 66, 351, 107);  
-triangle(347, 54, 392, 9, 392, 66); 
-triangle(158, 55, 290, 91, 290, 112);
 }
